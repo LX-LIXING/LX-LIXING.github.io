@@ -1,0 +1,38 @@
+title: 星星
+brief-intro: 逆风翻盘  向阳而生
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lx-lixing.github.io/" # the base hostname & protocol for your site
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+github_username:  LX-LIXING
+email: 294170534@qq.com
+weibo_username: 寥若晨星
+
+
+description_footer: 本站记录我小白之旅的沿途风景！
+
+duoshuo_shortname: #lxblog
+disqus_shortname: lixing
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# port
+# port: 1234
+
+# url
+category_dir: category/
+tag_dir: tag/
+
+# excerpt
+excerpt_separator: "\n\n\n\n"
+
+# paginate
+gems: [jekyll-paginate]
+paginate: 6
