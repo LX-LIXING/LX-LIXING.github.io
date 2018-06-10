@@ -32,7 +32,6 @@
 (function() {
   var backToTop = document.querySelector('.back-to-top')
   var backToTopA = document.querySelector('.back-to-top a')
-  // console.log(backToTop);
   window.addEventListener('scroll', function() {
 
     // 页面顶部滚进去的距离
@@ -45,10 +44,6 @@
     }
   })
 
-  // backToTopA.addEventListener('click',function (e) {
-  //     e.preventDefault()
-  //     window.scrollTo(0,0)
-  // })
 }());
 
 //////////////////////////hover on demo//////////////////////////////

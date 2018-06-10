@@ -8,13 +8,13 @@ permalink: /:year/:month/:day/:title/
 # other links
 github_username:  LX-LIXING
 email: 294170534@qq.com
-weibo_username: 寥若晨星
+weibo_username: 5321790539
 
 
-description_footer: 本站记录我小白之旅的沿途风景！
+description_footer: 我的小白之旅！
 
-duoshuo_shortname: #lxblog
-disqus_shortname: lixing
+# duoshuo_shortname: #lxblog
+# disqus_shortname: lixing
 
 # Build settings
 markdown: kramdown
