@@ -6,7 +6,7 @@ icon: bookmark
 type: page
 ---
 
-* content
+* 收藏列表
 {:toc}
 
 ## 工具
