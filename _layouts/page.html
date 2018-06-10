@@ -15,7 +15,8 @@ layout: default
             <!-- Content -->
             <div class="side content">
                 <div>
-                    Content
+                    {% if {page.title} == "收藏" %}收藏列表{% endif %}
+                    {% if {page.title} == "关于" %}文档结构{% endif %}
                 </div>
                 <ul id="content-side" class="content-ul">
                 </ul>
