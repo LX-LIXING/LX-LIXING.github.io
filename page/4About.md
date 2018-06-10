@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于我
+title: 了解星星
 permalink: /about/
 icon: heart
 type: page
