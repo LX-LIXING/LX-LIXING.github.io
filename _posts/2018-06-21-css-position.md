@@ -115,7 +115,7 @@ excerpt: 学习css中position属性以及学习中涉及到的其他概念。
 
 - sticky：在一个内容中，我们可以固定一个部分，然后到了另一个内容，又会固定另外一个部分
 
-	1.代码(文章底部：实例一)
+	1.代码
 
 ```
 
@@ -152,6 +152,9 @@ excerpt: 学习css中position属性以及学习中涉及到的其他概念。
 		            第一部分<br>
 		            第一部分<br>
 		            第一部分<br>
+					
+					...多复制几行看效果
+					
 		        </div>
 		    </div>
 		    <div class="wrap">
@@ -164,6 +167,9 @@ excerpt: 学习css中position属性以及学习中涉及到的其他概念。
 		            第二部分<br>
 		            第二部分<br>
 		            第二部分<br>
+
+					...多复制几行看效果
+					
 		        </div>
 		    </div>
 		</body>
@@ -184,170 +190,3 @@ excerpt: 学习css中position属性以及学习中涉及到的其他概念。
 
 	浮动元素会脱离文档流并向左/向右浮动，直到碰到父元素或者另一个浮动元素
 
-
-
-
-
-
-## 5 实例
-
-### 实例一
-
-
-<!DOCTYPE html>
-		<html lang="en">
-		<head>
-		    <meta charset="UTF-8">
-		    <title>alink</title>
-		    <style>
-		        body {
-		            margin: 0;
-		            padding: 0;
-		        }
-		        .wrap {
-		            border: 20px solid blue;
-		        }
-		        .header {
-		            position: sticky;
-		            top: 20px;
-		            border: 20px solid red;
-		            margin-top: 20px;
-		        }
-		    </style>
-		</head>
-		<body>
-		    <div class="wrap">
-		        <div class="header">
-		            这是头部
-		        </div>
-		        <div class="content">
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		            第一部分<br>
-		        </div>
-		    </div>
-		    <div class="wrap">
-		        <div class="header">
-		            这是另一个头部
-		        </div>
-		        <div class="content">
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		            第二部分<br>
-		        </div>
-		    </div>
-		</body>
-		</html>
