@@ -76,8 +76,9 @@ excerpt: 学习css中position属性以及学习中涉及到的其他概念。
 
 - 对文档流影响
 
-		1.position的值为absolute、fixed的元素脱离文档流，static、relative没有脱离文档流
-		2.float
+		1. position的值为absolute、fixed的元素脱离文档流，static、relative没有脱离文档流
+
+		2. 使用float脱离文档流时，其他盒子会无视这个元素，但其他盒子内的文本依然会为这个元素让出位置，环绕在周围。而对于使用absolute：position脱离文档流的元素，其他盒子与其他盒子内的文本都会无视它
 		
 
 ##  2 介绍说明
@@ -205,3 +206,24 @@ excerpt: 学习css中position属性以及学习中涉及到的其他概念。
 		3. 浮动会导致父元素高度坍塌
 
 - 清除浮动
+		 
+	1. 目的：解决父元素高度坍塌造成布局混乱的问题。
+
+	2. 最佳解决方法：
+		
+			// 全浏览器通用的clearfix方案【推荐】
+			// 引入了zoom以支持IE6/7
+			// 同时加入:before以解决现代浏览器上边距折叠的问题
+			.clearfix:before,
+			.clearfix:after {
+			    display: table;
+			    content: " ";
+			}
+			.clearfix:after {
+			    clear: both;
+			}
+			.clearfix{
+			    *zoom: 1;
+			}
+
+			
