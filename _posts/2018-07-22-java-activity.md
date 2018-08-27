@@ -2,8 +2,8 @@
 layout: post
 title:  "小白学习activity"
 date:   2018-07-22
-categories: java
-tags: java
+categories: Java
+tags: Java
 excerpt: 使用activity
 ---
 
