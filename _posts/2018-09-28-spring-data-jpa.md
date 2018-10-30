@@ -46,4 +46,9 @@ excerpt: spring boot JPA
 			2）使用排序
 			3）使用分页
 
+### 自定义Repository的实现
 
+	1.定义自定义Repository接口
+	2.定义接口实现（继承SimpleJpaRepository实现1中自定义接口）
+	3.自定义RepositoryFactoryBean.
+	4.开启自定义支持使用@EnableJpaRepositories的repositoryFactoryBeanClass来指定FactoryBean
